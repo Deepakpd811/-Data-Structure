@@ -34,7 +34,7 @@ public class HeapSort {
             arr[i] = arr[largest];
             arr[largest] = temp;
 
-            heapify(arr, n, largest); // heapify the recursion tree
+            heapify(arr, n, largest); // heapify the re
         }
     }
 
